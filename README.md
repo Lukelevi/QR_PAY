@@ -44,3 +44,11 @@ Then push your new branch with `git push -u origin feature/adding-auth` NB! Note
 Go to the projects Repo on Github and open a pull request that targets the `staging` branch.
 E.g. Your PR will look like this:
 ![Example Pull Request](/assets/PR.png)
+
+#### Things to Note
+
+- Always ensure you pull regularly changes made in staging, i.e run `git pull` on the `staging` branch before branching off.
+- Delete your branch on Github after you've merged.
+- Follow the naming standards for all branches: to add a feature or new work `feature/....` to fix a bug discovered by QA process `bugfix/....` and if the bug was found on the main branch `hotfix/....`
+- Run `git fetch` if you want to stay up to date with branches pushed to Github.
+- Always ensure new work is branched off from the `staging` branch.
