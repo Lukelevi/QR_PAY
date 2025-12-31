@@ -19,7 +19,7 @@ After cloning the repo, the branch will be on `main`. You will then need to `swi
 Switch to Staging Branch:
 Run `git checkout staging` or `git switch staging`.
 
-NB! Should it not switch branch run `git fetch` then repeat the step above.
+**NB!**** Should it not switch the branch, try to run `git fetch` then repeat the step above.
 
 ### Step 2
 
@@ -37,7 +37,7 @@ Commiting Changes:
 Run `git add .` to add all changes you've made. or `git add fileName.js` if you want to add specific file.
 Then Run `git commit -m 'Meaningful message representing what you did'`.
 
-Then push your new branch with `git push -u origin feature/adding-auth` NB note that **feature/adding-auth**; represents the name of your branch.
+Then push your new branch with `git push -u origin feature/adding-auth` NB! Note that **feature/adding-auth**; represents the name of your branch.
 
 ### Step 4
 
