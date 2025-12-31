@@ -10,7 +10,7 @@ The aim of QR Pay is to allow for users to make payments by scanning a users uni
 - `staging`: this branch is for all the development changes made towards building a final product, and should be the source for development.
 - `feature branch` - this will be a branch used to add your feature, it's ideal to create the feature branch from a ticket if not, it can follow this standard: `feature/feature-name` or `fix/bug-being-fixed` or `hotfix/any-urgent-changes-to-main`.
 
-## Getting Started
+## Contributing
 
 After cloning the repo, the branch will be on `main`. You will then need to `switch` to staging which is the most up to date branch and branch off from there.
 
@@ -42,3 +42,5 @@ Then push your new branch with `git push -u origin feature/adding-auth` NB note 
 ### Step 4
 
 Go to the projects Repo on Github and open a pull request that targets the `staging` branch.
+E.g. Your PR will look like this:
+![Example Pull Request](/assets/PR.png)
